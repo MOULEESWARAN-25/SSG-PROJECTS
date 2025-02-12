@@ -1,8 +1,10 @@
-import Header from "./Components/Header";
 import HomePage from "./Pages/Homepage";
+import About from "./Components/About"
+import Header from "./components/Header";
 export default function App() {
   return (
-    <div className="flex flex-col p-5 pl-40 pr-40 gap-24">
+    
+    <div className="">
       <Header />
       <HomePage />
     </div>
